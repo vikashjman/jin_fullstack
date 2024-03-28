@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  psdev:
+    image: postgres
+    container_name: psdev
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: P@ssw0rd
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

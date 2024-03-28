@@ -1,0 +1,38 @@
+
+
+:root{
+  --text-primary: hsl(247, 70%, 21%);
+  --font-primary: 'Arial';
+}
+*{
+  box-sizing: border-box;
+  /* margin: 0; */
+  /* padding: 0; */
+  font-family: var(--font-primary);
+}
+
+body{
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+select{
+  /* margin: 0.3rem; */
+  outline: none;
+  border: none;
+  background-color: #F7F9FB;
+  font-size: 0.9rem;
+}
+
+input{
+  outline: none;
+  padding: 0.5rem;
+  background-color: #F7F9FB;
+  border: 0px;
+  border-radius: 0px;
+}
+
+input:focus{
+  outline: blue solid 0.1rem;
+}

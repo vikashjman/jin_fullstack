@@ -1,0 +1,15 @@
+{
+  "name": "jin_fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-client": "yarn --prefix frontend",
+    "install-server": "npm i --prefix backend",
+    "install": "npm ",
+    "watch":"npm start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
